@@ -11,36 +11,36 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
     <title>Document</title>
   </head>
-  <body>
+  <body class="pt-16">
+    <!-- Add top padding for space between navbar and content -->
     <section class="part-1">
       <!-- Navbar -->
-      <div class="nav-bar">
-        <nav class="bg-white border-b border-gray-200 dark:bg-gray-200">
-          <div class="container mx-auto flex justify-between items-center p-4">
-            <a href="#" class="logo w-16">
-              <img
-                src="../img/logo-black.png"
-                alt="Logo"
-                class="cursor-pointer"
-              />
-            </a>
-            <div class="nav flex space-x-4">
-              <a href="#" class="nav-link">Home</a>
-              <a href="#" class="nav-link">About</a>
-              <a href="#" class="nav-link">Portfolio</a>
-              <a href="#" class="nav-link">Blog</a>
-              <a href="#" class="nav-link">Contact</a>
-            </div>
+      <div
+        class="nav-bar fixed w-full top-0 left-0 z-50 bg-white border-b border-gray-200"
+      >
+        <div class="container mx-auto flex justify-between items-center p-4">
+          <a href="#" class="logo w-16">
+            <img
+              src="../img/logo-black.png"
+              alt="Logo"
+              class="cursor-pointer"
+            />
+          </a>
+          <div class="nav flex space-x-4">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Portfolio</a>
+            <a href="#" class="nav-link">Blog</a>
+            <a href="#" class="nav-link">Contact</a>
           </div>
-        </nav>
+        </div>
       </div>
 
       <!-- Hero Section -->
       <div
-        class="container-1 mx-1 flex flex-col md:flex-row items-center justify-center mt-12 space-y-8 md:space-y-0"
+        class="container-1 mx-auto flex flex-col md:flex-row items-center justify-center mt-12 space-y-8 md:space-y-0"
       >
         <!-- Left Side -->
         <div class="left-side text-center md:text-left">
